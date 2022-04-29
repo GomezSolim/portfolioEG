@@ -1,0 +1,73 @@
+
+body{
+    background: crimson;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  nav .navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  nav .navbar .logo a{
+    font-weight: 500;
+    font-size: 35px;
+    color: #4070f4;
+  }
+  nav.sticky .navbar .logo a{
+    color: #fff;
+  }
+.menu{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 30%;
+    padding-top: 3%;
+
+  }
+
+  nav .navbar .menu li{
+    list-style: none;
+    margin: 0 ;
+    padding-left: 20%;
+    
+  }
+  .navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 6px 0;
+    transition: all 0.4s ease;
+    text-decoration: none;
+  }
+
+  .container{
+      display: flex;
+      margin-bottom: 20px;
+      justify-content: space-between;
+
+  }
+  .bloc{
+      background: white;
+    border: 5px solid crimson;
+    margin: 20px;
+    /* text-align: justify; */
+  }
+  .bloc p{
+      text-align: justify;
+      margin: 20px;
+}
+.bloc h1{
+    text-align: center;
+}
+  
+.small-title{
+    background: #000;
+    color: white;
+}
